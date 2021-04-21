@@ -1,0 +1,104 @@
+@charset "utf-8";
+body{
+	font-family: 'Dancing Script', cursive;
+	font-family: 32px;
+	background-image: image('folk-pattern-black.png')
+}
+body{
+	background-color:grey;
+	min-width: 1220px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Kaushan Script', cursive;
+}
+.col-md-4.col-lg-5.col-6 address a {
+	color:antiquewhite;
+}
+.col-md-4.col-lg-5.col-6 address a:hover {
+	text-decoration: none;
+	color:#ffffff;
+}
+
+.col-12 #carouselExampleControls .carousel-inner {
+    text-shadow: 0px 0px #000000;
+    font-size: 24px;
+}
+.carousel-inner .carousel-item.active .carousel-caption.d-none.d-md-block {
+    color: #ffffff;
+    font-size: 24px;
+}
+.card {
+	border: 2px groove #000000;
+}.navbar.navbar-expand-lg.navbar-dark.bg-dark {
+    background-color: #000000;
+}
+.navbar.navbar-expand-lg.navbar-dark.bg-dark .container strong {
+    font-size: 40px;
+    color: #C4C4C4;
+}
+.navbar-nav.mr-auto li .nav-link {
+    text-align: right;
+    color: #000000;
+    font-size: 20px;
+}
+.navbar-nav.mr-auto li .nav-link:hover{
+	background-color: darkgray;
+	color: black;
+	-webkit-transition:1s;
+}
+#navbarSupportedContent .form-inline.my-2.my-lg-0 .btn.btn-outline-success.my-2.my-sm-0 {
+    border-style: groove;
+    border-color: #000000;
+    color: #000000;
+    background-color: #9C9A9A;
+    font-weight: normal;
+    border-left-width: thick;
+}
+.container .navbar-header a {
+	color:darkgray;
+	text-align: left;
+	font-size: 20px;
+}
+.container .navbar-header a:hover {
+	text-decoration: none;
+	color:#ffffff;
+	-webkit-transition:1s;
+}
+.jumbotron{
+	text-align: center;
+	background-color: dimgrey;
+	background-position:center;
+	height: 260px;
+	color:#FFFFFF;
+	margin: 0 auto;
+}
+.container-fluid.about {
+	background-color:slategrey;
+}
+.fa-address-card{
+	font-size: 50px;
+	color: red;
+	padding-top: 50px;
+}
+.fa-address-card:hover{
+	color: brown;
+	-webkit-transform: scale(1.2,1.2);
+	-webkit-transition:2s;
+}
+.icon{
+	text-align: center;
+}.container-fluid.goodlemap {
+	padding: 0 !important;
+}
+.media .media-body .mt-0.mb-1 {
+	font-size: 35px;
+	text-align: center;	
+}
+.media-body .mt-0.mb-1 a {
+	color: black;
+}
+.media-body .mt-0.mb-1 a:hover{
+	text-decoration:inherit;
+	color: black;
+	-webkit-transition:1s;
+}

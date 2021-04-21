@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap eCommerce Page Template</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.3.1.css" rel="stylesheet">
+	  <link rel="stylesheet" href="css/custom.css">
+	  <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Kaushan+Script|Lobster&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="css/animate.css">
+	  <link rel="stylesheet" href="css/fontawesome.css">
+	  <link rel="stylesheet" href="css/fontawesome.min.css">
+	  <link rel="stylesheet" href="css/tracking.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container">
+      <div class="navbar-header">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+		  <a href="index.html">RYAZWINKY Shopping</a>
+		  </div> 
+			<!--brand and toggle-->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li>
+              <a class="nav-link" href="about-us.html">About Us</a>
+            </li>
+            
+			  <li class="nav-item">
+              <a class="nav-link" href="tracking.html">Tracking</a>
+			  </li>
+			  <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+			  </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+			<!--/.navbar-collapse-->
+      </div>
+		<!--/.container-fluid-->
+    </nav>
+    <div class="row">
+		<div class="col-xs-60">
+			<div class="grid-col-container" id="appeal-alert">
+				<h3 class="page-title">Orders</h3>
+			</div>
+			<div class="grid-col-container">
+				<div class="me-iu-box">
+					<form method="post" name="orderListSearch" action="orderList.html">
+						<input name="#" type="hidden" value="#">
+						<input type="hidden" name="#" value id="contactPersonId">
+						<input type="hidden" name="action" value="OrderListAction">
+						<input type="hidden" name="#" id="startDate" value>
+						<input type="hidden" name="#" id="endDate" value>
+						<input type="hidden" name="event_submit_do_search_case" id="eventSubmit" value="do_search_case">
+						<div class="order-list-search">
+							<div id="simple-search" data-spm-anchor-id="#">
+								<label class="first-label">
+									<span data-spm-anchor-id="#">Order number: </span>
+									<input value id="order-no" maxlength="20" name="#">
+								</label>
+								<label>
+									<span>Product: </span>
+									<input value id="product-name" maxlength="128" name="#">
+								</label>
+								<button id="search-btn" class="ui-button ui-button-primary search-btn">Search</button>
+								
+							</div>
+							<div id="advanced-search">
+								<label class="first-label">
+									<span>Seller name: </span>
+									<input value id="buyer-name" maxlength="35" name="#">
+								</label>
+								<label>
+									<span>Status: </span>
+									<select name="#" id="order-status" class="ui-dropdown-system">
+										<option selected value>All Orders</option>
+										<option value="IN_CANCEL">Awaiting Cancellation</option>
+										<option value="WAIT_SELLER_SEND_GOODS">Awaiting Shipment</option>
+										<option value="WAIT_BUYER_ACCEPT_GOODS">Awaiting delivery</option>
+										<option value="WAIT_GROUP">Grouping</option>
+										<option value="IN_FROZEN">Frozen Orders</option>
+										<option value="WAIT_SELLER_EXAMINE_MONEY">Payment not yet confirmed</option>
+									</select>
+								</label>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			
+     <tr class="order-body">
+     <td class="product-sets" colspan="2">
+     <div class="product-left"></div>
+     <div class="product-right">
+     <p class="product-title">&nbsp;</p>
+     <div class="product-policy">
+	 <div class="sell-sp-main">
+	 <a class="sp-icon sp-5" title="Full refund if product is not received in 60 days" target="_blank" href="#"></a>
+     <span title="Returns accepted if product not as described, buyer pays return shipping; or keep the product &amp; agree refund with seller." class="sp-icon sp-1"></span>
+	 </div>
+	 </div>
+	 <p class="product-memo"></p>
+     </div>
+     </td>
+    
+	  </tr>
+      </div>
+	  </div>
+    <div class="container text-white bg-dark p-4">
+      <div class="row">
+       
+        <div class="col-md-4 col-lg-5 col-6">
+          <address>
+            <strong>RyaZwinKy Online Stores</strong><br>
+            Ryazwinky Ltd<br>
+            Limuru, Kenya, PRIVATE BAG-00217<br>
+            <abbr title="Phone">Phone:</abbr> (+254)740 579 404
+          </address>
+          <address>
+            <strong>Full Name</strong><br>
+            <a href="mailto:#">bsclmr164319@spu.ac.ke</a>
+          </address>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © Ryazwinky. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.3.1.js"></script>
+    <script src="js/wow.js"></script>
+    <script>
+     new WOW().init();
+    </script>
+  </body>
+</html>
